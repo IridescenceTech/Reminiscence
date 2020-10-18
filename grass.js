@@ -27,7 +27,7 @@ THREEx.createGrassTufts	= function(positions){
 		var baseAngle	= Math.PI * 2 * Math.random();
 		
 
-		var nPlanes	= 1
+		var nPlanes	= 3
 		for(var j = 0; j < nPlanes; j++){
 			var angle	=  baseAngle+j*Math.PI/nPlanes
 
